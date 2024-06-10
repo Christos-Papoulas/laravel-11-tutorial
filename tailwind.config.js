@@ -3,11 +3,12 @@ export default {
   content: [
     "./resources/**/*.blade.php",
     "./resources/**/*.js",
-    "./resources/**/*.vue",
   ],
   theme: {
     extend: {
-        "laracasts": "rgb(50, 138, 241)"
+        colors: {
+            'black': '#060606',
+        }
     },
   },
   plugins: [],
